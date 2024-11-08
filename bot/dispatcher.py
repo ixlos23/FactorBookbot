@@ -1,5 +1,4 @@
 from os import getenv
-
 from aiogram import Dispatcher
 
 from utils.conf import Config as conf

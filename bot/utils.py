@@ -12,10 +12,10 @@ def caption_book(book: Book):
 {vol}: {book_vol}
 {description}: {book_description}
 {price}: {book_price}
-    """.format(title = _("🔹 Title") ,
-               book_name = book.title,
-               author = _("✍🏻Author"),
-               book_author = book.author,
+    """.format(title=_("🔹 Title") ,
+               book_name=book.title,
+               author=_("✍🏻Author"),
+               book_author=book.author,
                janr=_("🟤 Genre"),
                book_genre=book.category.name,
                page=_("📑 Page"),
@@ -27,4 +27,4 @@ def caption_book(book: Book):
                price=_("💸 Price"),
                book_price=book.price,
                )
-    return caption
+    return caption # noqa

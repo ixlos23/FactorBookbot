@@ -3,7 +3,7 @@ from aiogram.utils.i18n import gettext as _
 
 
 def main_button():
-    desing = [
+    design = [
         [
             KeyboardButton(text=_('📚 Books'))
         ],
@@ -18,4 +18,4 @@ def main_button():
             KeyboardButton(text=_('🇺🇿/🇺🇸 Language'))
         ]
     ]
-    return ReplyKeyboardMarkup(keyboard=desing, resize_keyboard=True)
+    return ReplyKeyboardMarkup(keyboard=design, resize_keyboard=True)

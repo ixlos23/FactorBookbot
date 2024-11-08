@@ -7,9 +7,11 @@ from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.utils.i18n import FSMI18nMiddleware, I18n
 
+
 from bot.handlers import dp
 from bot.dispatcher import TOKEN
 from db.config import engine
+
 from db.models import Base
 from utils.middlewares import CustomMiddleware
 
