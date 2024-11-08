@@ -17,6 +17,7 @@ async def invoice(message: Message):
     await message.answer_invoice(_('Product'), "Jami 3product order qilindi", '1',
                                  conf.bot.PAYMENT_CLICK_TOKEN,currency="UZS", prices=prices) # noqa
 
+
 """
 git init
 git add .
